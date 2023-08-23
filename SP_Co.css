@@ -1,0 +1,133 @@
+body{
+    background-color: darkgray;
+}
+.web{
+    width:778px; 
+    height:700px; 
+    margin:auto; 
+    background-color: white; 
+}
+.top{
+    
+    width:778px; 
+    height:55px;
+    display: flex;
+}
+.img{
+    float:left;
+    position: relative;
+      
+}
+.img_1{
+    position: absolute;
+    z-index: 2;  
+}
+.img_hover_1{
+    position: absolute;
+    float:0px;
+    z-index: 1;
+}
+
+.img:hover .img_1{
+    opacity: 0;
+}
+.left{ 
+    position: relative;
+    width:200px; 
+    height:600px; 
+    background-color:rgb(81, 117, 154); 
+    float:left;
+}
+.img_left{
+    position: absolute; 
+    bottom:0px;
+    text-align:center
+}
+.right{
+    width:578px; 
+    height:600px; 
+    background-color: white; 
+    float:left;  
+}
+.bottom{ 
+    width:778px; 
+    height:45px; 
+    background-color: rgb(42, 42, 148); 
+    clear: both;  
+    color:white;
+    box-sizing:border-box; 
+    text-align: center; 
+    padding:15px
+}
+.margin_right{
+    margin:10px; 
+}
+hr{
+    margin-right:10px; 
+}
+
+/* gioithieu */
+
+.font{
+    font-weight: bold;
+}
+
+/* lien he */
+.p{
+    display: block; 
+    box-sizing:border-box;
+    padding:10px 0px
+}
+/* column: tạo cột */
+.column_left{
+    width:30%; 
+    text-align: right; 
+    float:left;  
+}
+.column_right{
+    width:70%; 
+    float:right; 
+    box-sizing:border-box; 
+    padding-left:10px;
+}
+
+/* thuong mai */
+.div_tm{
+    display:inline-block;
+    margin:10px 0px;
+}
+.img_right_tm{ 
+    margin:0px 10px; 
+    float:left;}
+    
+.text_right_tm{
+    width:55%;
+}
+.text_right_tm:hover{
+    color:red;
+}
+
+
+
+
+
+/* .img{
+    z-index: 2;
+    position: absolute;
+}
+
+.img_1{ 
+    position:absolute;
+    z-index: 1;
+    left:151px
+}
+
+.img:hover{
+    display:none;
+}
+
+.img_2{
+    position: absolute;
+    left:386px;
+    z-index:-1;
+} */
